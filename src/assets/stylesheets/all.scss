@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/functions";  // 匯入 functions
+@import "@/assets/stylesheets/helpers/bootstrap_customized/_variables.scss";  // 自訂 bootstrap 變數
+@import "@/assets/stylesheets/helpers/bootstrap_customized/_utilities.scss"; // 自訂 bootstrap 通用類別
+@import "~bootstrap/scss/bootstrap"; // 將所有 bootstrap 載出來
+
+
+@import '@/assets/stylesheets/helpers/font.scss';
+@import "@/assets/stylesheets/helpers/_base.scss";
+@import "@/assets/stylesheets/helpers/_utils.scss";
+

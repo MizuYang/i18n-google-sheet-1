@@ -1,0 +1,255 @@
+
+// 寬度
+// .w-10 {
+//   width: 10%;
+// }
+// .w-15 {
+//   width: 15%;
+// }
+// .w-20 {
+//   width: 20%;
+// }
+// .w-33 {
+//   width: 33%;
+// }
+// .w-40 {
+//   width: 40%;
+// }
+// .w-60 {
+//   width: 60%;
+// }
+// .w-70 {
+//   width: 70%;
+// }
+// .w-80 {
+//   width: 80%;
+// }
+// .w-85 {
+//   width: 85%;
+// }
+// .w-90 {
+//   width: 90%;
+// }
+// .mw-70 {
+//   max-width: 70%;
+// }
+
+// 高度
+.mh-100 {
+  min-height: 100%;
+}
+
+// Border 線條
+.border-none {
+  border: none;
+}
+
+// 圓角
+.raduis-3 {
+  border-radius: 3px;
+}
+.raduis-5 {
+  border-radius: 5px;
+}
+.raduis-6 {
+  border-radius: 6px;
+}
+.raduis-8 {
+  border-radius: 8px;
+}
+.raduis-10 {
+  border-radius: 10px;
+}
+.raduis-15 {
+  border-radius: 15px;
+}
+.raduis-20 {
+  border-radius: 20px;
+}
+
+// 文字粗體
+.fw-bold-3 {
+  font-weight: 300;
+}
+.fw-bold-4 {
+  font-weight: 400;
+}
+.fw-bold-5 {
+  font-weight: 500;
+}
+.fw-bold-7 {
+  font-weight: 700;
+}
+.fw-bold-9 {
+  font-weight: 900;
+}
+
+
+// 文字大小
+.text-11 {
+  font-size: 11px;
+}
+.text-12 {
+  font-size: 12px;
+}
+.text-13 {
+  font-size: 13px;
+}
+.text-14 {
+  font-size: 14px;
+}
+.text-15 {
+  font-size: 15px;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-22 {
+  font-size: 22px;
+}
+.text-24 {
+  font-size: 24px;
+}
+.text-26 {
+  font-size: 26px;
+}
+.text-28 {
+  font-size: 28px;
+}
+.text-30 {
+  font-size: 30px;
+}
+.text-32 {
+  font-size: 32px;
+}
+
+// 文字顏色
+.text-gray {
+  color: gray;
+}
+.text-808080 {
+  color: #808080;
+}
+.text-silver {
+  color: silver;
+}
+.text-darkgray {
+  color: darkgray;
+}
+.text-dimgray {
+  color: dimgrey;
+}
+
+// 文字截斷 (記得限制寬度max-width:${寬度}px, 超出寬度的部分就會被截斷)
+.text-cut {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+// 文字截斷 - 兩行 (記得限制高度max-height:${高度}px、寬度max-width:${寬度}px)
+.text-cut-line2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; // 限制文字高度為兩行
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// 背景色
+.bg-fff {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: gray;
+}
+.bg-f9f9f9 {
+  background-color: #f9f9f9;
+}
+.bg-silver {
+  background-color: silver;
+}
+
+// 陰影
+// .shadow-022 {
+//   box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.25);
+// }
+// .shadow-024 {
+//   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.25);
+// }
+
+// 定位
+// 置中
+.position-absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.position-fixed-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// 權重
+.z50 {
+  z-index: 50;
+}
+.z100 {
+  z-index: 100;
+}
+.z110 {
+  z-index: 110;
+}
+.z9999 {
+  z-index: 9999;
+}
+
+// 讓英文、數字可換行
+.word-break-all {
+  word-break: break-all;
+}
+
+
+// 改變滑鼠圖標
+.cursor-text:hover {
+  cursor: text // 文字游標
+}
+.cursor-default:hover {
+  cursor: default; // 預設游標
+}
+.cursor-pointer:hover {
+  cursor: pointer;  // 手指游標
+}
+.cursor-move:hover {
+  cursor: move;  // 拖曳游標
+}
+// .cursor-not-allowed (hover顯示禁用游標)
+.btn:disabled.cursor-not-allowed {
+  pointer-events: fill; // 蓋掉bs5的pointer-events:none
+  cursor: not-allowed; // 禁用游標
+}
+
+// 無法反白選取文字
+.user-select-none {
+  user-select: none;
+}
+
+// letter-spacing
+.letter-spacing-005 {
+  letter-spacing: 0.05em;
+}
+
+// hover 倍率放大
+.scale-105:hover {
+  transform: scale(1.05);
+}
+.scale-1015:hover {
+  transform: scale(1.015);
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+}
+// 移除 元素 margin-bottom 推擠
+ol, ul, dl, p, h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+// 移除 ul 圓點
+ul {
+  list-style: none;
+}
+// 移除 a 連結下底線
+a {
+  text-decoration: none;
+}
+// 防止滾動條隨著內文長短,有時出現有時沒出現,造成頁面切換時跳動
+html {
+  overflow-y: scroll;
+}
+// placeholder 字體樣式
+::placeholder {
+  color: darkgray !important;
+}
+
+// ---------   Bootstrap 開始   -----------
+
+.btn {
+  padding: 0;
+}
+// 移除 bootstrap btn 按鈕 focus 圓框
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none;
+}
+// 移除 bootstrap btn 點擊按鈕 focus 陰影 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  box-shadow:none;
+}
+// 移除 bootstrap表單元件 focus 樣式
+.form-select:focus, .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+// ---------   Bootstrap 結束   -----------

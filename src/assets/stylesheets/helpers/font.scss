@@ -1,0 +1,9 @@
+// Noto Sans TC
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+// Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: "Noto Sans TC",Roboto,-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif !important;
+                                /* mac, IOS 系統字體                   Windows 英文系統字  微軟正黑體 Android 系統字  IOS 系統字  通用字體 */
+}
